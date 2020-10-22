@@ -1,0 +1,26 @@
+{
+  "ast": null,
+  "code": "import { jsxDEV as _jsxDEV } from \"react/jsx-dev-runtime\";\nvar _jsxFileName = \"C:\\\\Portfolio\\\\next-diario\\\\components\\\\navbar\\\\navbar.js\";\nimport Link from 'next/link';\nimport styles from '../../styles/navbar.module.scss';\n\nconst Navbar = () => {\n  return /*#__PURE__*/_jsxDEV(\"div\", {\n    className: styles.navbar,\n    children: [/*#__PURE__*/_jsxDEV(\"ul\", {\n      children: links.map(l => /*#__PURE__*/_jsxDEV(\"li\", {\n        children: /*#__PURE__*/_jsxDEV(Link, {\n          href: l.to,\n          children: /*#__PURE__*/_jsxDEV(\"a\", {\n            children: l.title\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 9,\n            columnNumber: 57\n          }, this)\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 9,\n          columnNumber: 39\n        }, this)\n      }, l.title, false, {\n        fileName: _jsxFileName,\n        lineNumber: 9,\n        columnNumber: 21\n      }, this))\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 7,\n      columnNumber: 13\n    }, this), /*#__PURE__*/_jsxDEV(\"div\", {\n      className: styles.search_hero,\n      children: /*#__PURE__*/_jsxDEV(\"input\", {\n        type: 'text',\n        placeholder: 'Search...'\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 14,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 13,\n      columnNumber: 13\n    }, this)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 6,\n    columnNumber: 9\n  }, this);\n};\n\nconst links = [{\n  title: 'Home',\n  to: '/'\n}, {\n  title: 'Champions',\n  to: '/champions'\n}, {\n  title: 'Stats',\n  to: '/stats'\n}, {\n  title: 'Leaderboards',\n  to: '/leaderboards'\n}];\nexport default Navbar;",
+  "map": {
+    "version": 3,
+    "sources": ["C:/Portfolio/next-diario/components/navbar/navbar.js"],
+    "names": [
+      "Link",
+      "styles",
+      "Navbar",
+      "navbar",
+      "links",
+      "map",
+      "l",
+      "to",
+      "title",
+      "search_hero"
+    ],
+    "mappings": ";;AAAA,OAAOA,IAAP,MAAiB,WAAjB;AACA,OAAOC,MAAP,MAAmB,iCAAnB;;AAEA,MAAMC,MAAM,GAAG,MAAM;AACjB,sBACI;AAAK,IAAA,SAAS,EAAED,MAAM,CAACE,MAAvB;AAAA,4BACI;AAAA,gBACKC,KAAK,CAACC,GAAN,CAAUC,CAAC,iBACR;AAAA,+BAAkB,QAAC,IAAD;AAAM,UAAA,IAAI,EAAEA,CAAC,CAACC,EAAd;AAAA,iCAAkB;AAAA,sBAAID,CAAC,CAACE;AAAN;AAAA;AAAA;AAAA;AAAA;AAAlB;AAAA;AAAA;AAAA;AAAA;AAAlB,SAASF,CAAC,CAACE,KAAX;AAAA;AAAA;AAAA;AAAA,cADH;AADL;AAAA;AAAA;AAAA;AAAA,YADJ,eAOI;AAAK,MAAA,SAAS,EAAEP,MAAM,CAACQ,WAAvB;AAAA,6BACI;AAAO,QAAA,IAAI,EAAE,MAAb;AAAqB,QAAA,WAAW,EAAE;AAAlC;AAAA;AAAA;AAAA;AAAA;AADJ;AAAA;AAAA;AAAA;AAAA,YAPJ;AAAA;AAAA;AAAA;AAAA;AAAA,UADJ;AAaH,CAdD;;AAeA,MAAML,KAAK,GAAC,CACR;AAACI,EAAAA,KAAK,EAAE,MAAR;AAAgBD,EAAAA,EAAE,EAAC;AAAnB,CADQ,EAER;AAACC,EAAAA,KAAK,EAAE,WAAR;AAAqBD,EAAAA,EAAE,EAAC;AAAxB,CAFQ,EAGR;AAACC,EAAAA,KAAK,EAAE,OAAR;AAAiBD,EAAAA,EAAE,EAAC;AAApB,CAHQ,EAIR;AAACC,EAAAA,KAAK,EAAE,cAAR;AAAwBD,EAAAA,EAAE,EAAC;AAA3B,CAJQ,CAAZ;AAMA,eAAeL,MAAf",
+    "sourcesContent": [
+      "import Link from 'next/link';\r\nimport styles from '../../styles/navbar.module.scss'\r\n\r\nconst Navbar = () => {\r\n    return(\r\n        <div className={styles.navbar} >\r\n            <ul>\r\n                {links.map(l =>(\r\n                    <li key={l.title}><Link href={l.to}><a>{l.title}</a></Link></li>\r\n                ))}\r\n            </ul>\r\n\r\n            <div className={styles.search_hero}>\r\n                <input type={'text'} placeholder={'Search...'}/>\r\n            </div>\r\n        </div>\r\n    );\r\n}\r\nconst links=[\r\n    {title: 'Home', to:'/'},\r\n    {title: 'Champions', to:'/champions'},\r\n    {title: 'Stats', to:'/stats'},\r\n    {title: 'Leaderboards', to:'/leaderboards'},\r\n];\r\nexport default Navbar;\r\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}

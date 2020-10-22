@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  background-image: url("/static/hero/hero1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 75%;
+
+  ul {
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
+    & li {
+      text-decoration: none;
+      list-style: none;
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 10px;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 1px solid white;
+    }
+  }
+  .search_hero {
+    margin: auto;
+  }
+}

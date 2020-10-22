@@ -1,0 +1,41 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.5.5",
+    "next-images": "^1.6.0",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-standard": "^4.0.2",
+    "prettier": "2.1.2"
+  },
+  "name": "next-diario",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miteos/Diario.git"
+  },
+  "author": "Matej Kapular",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miteos/Diario/issues"
+  },
+  "homepage": "https://github.com/Miteos/Diario#readme",
+  "description": ""
+}
