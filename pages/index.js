@@ -1,4 +1,4 @@
-import styles from '../styles/index.module.scss'
+import styles from '../styles/modules/index.module.scss'
 import React from 'react'
 import Button from '@material-ui/core/Button'
 import Layout from '../components/layout'
